@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String&TemplateLiterals</title>
+</head>
+<body>
+  
+  <script>
+
+    const firstName = 'jonas';
+    const job = 'teacher';
+    const birthYear = 1991;
+    const year = 2037;
+
+    const jonas = "I'm" + firstName + ',a' + (year - birthYear) + ' years old' + job + '!';
+    console.log(jonas);
+
+
+    // using template literals
+    const jonasNew = `I'm ${firstName} ,a ${year - birthYear} years old ${job} !`;
+    console.log(jonasNew);
+
+    console.log(`just a regular string......`);
+
+    //multiline string
+    console.log(`string
+    multiple
+    line`);
+
+
+  </script>
+</body>
+</html>

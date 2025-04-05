@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeConversion&Coercion</title>
+</head>
+<body>
+  
+  <script>
+    //type Conversion
+    const inputYear = '1991';
+    console.log(Number(inputYear));
+    console.log(Number(inputYear) + 18);
+
+    console.log(Number('Jonas'));//NaN = not a number
+
+    console.log(String(23)); // 23 convert into string
+
+    //type coercion
+    console.log('I am ' + 23 + ' years old');
+    console.log('23' - '10' - 3); //10
+    console.log('23' * '2'); // 46
+
+
+  </script>
+</body>
+</html>

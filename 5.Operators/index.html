@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operators</title>
+</head>
+<body>
+  <script>
+
+    // Math operators
+    const now = 2037;
+    const ageJohns = now - 1991;
+    const ageSarah = now - 2018;
+    console.log(ageJohns, ageSarah);
+
+    console.log(ageJohns * 2, ageJohns / 10, 2**3);
+    // 2 ** 3 means 2 to the power of 3  = 2*2*2
+
+    const firstName = 'johns';
+    const lastName = 'schmedtmann';
+    console.log(firstName +" "+ lastName)
+
+    // Assignment operators
+    let x = 10 + 5;
+    x += 10 // x = x + 10;
+    x *= 4 // x = x * 4 = 100
+    x++; // x = x + 1;
+    x--; // x = x - 1;
+    console.log(x);
+
+    //Comparison operators <,>,<=,>=
+    console.log(ageJohns > ageSarah); // true;
+    console.log(ageSarah >= ageJohns); 
+
+    const isFullAge = ageSarah >= 18;
+    console.log(now - 1991 > now - 2018);
+
+
+  </script>
+</body>
+</html>
